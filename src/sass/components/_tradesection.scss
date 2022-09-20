@@ -1,0 +1,201 @@
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../img/Dropdown-icon.png);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    cursor: pointer;
+}
+
+.tradesection {
+    background-color: #ffffff;
+    height: 160vh; 
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &-upperBox {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 35rem;
+        border-radius: 1.6rem;
+        //border: 1px solid red;
+        background-color: #ffffff;
+        position: absolute;
+        top: -15rem;
+        box-shadow: 0px .25rem .25rem #f0efef;
+
+        &__inputBox {
+            height: max-content;
+            //border: 1px solid black;
+            width: 80%;
+            padding-top: 5rem;
+           
+            &__input {
+                width: 45%;
+                color: #0D0D2B;
+                border-bottom: 1px solid #E0E0E0;
+                outline: none;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                font-size: 2rem;
+                font-weight: 400;
+                line-height: 3rem;
+                position: relative;
+                top: 1rem;
+            }
+
+            &__select {
+                width: 25%;
+                margin-left: 5.5%;
+                color: #0D0D2B;
+                border-bottom: 1px solid #E0E0E0;
+                outline: none;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                font-size: 2rem;
+                font-weight: 400;
+                line-height: 3rem;
+                position: relative;
+                top: 1rem;
+            }
+
+            &__button {
+                margin-left: 5.5%;
+                background-color: #3671E9;
+                padding: 1.4rem 3.2rem;
+                border-radius: 3.2rem;
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 1.6rem;
+                outline: none;
+                border: none;
+                margin-bottom: 0rem;
+                cursor: pointer;
+            }
+        }
+
+        &__textBox {
+            //border: 1px solid black;
+            width: 80%;
+            height: 30rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            &__text {
+                color: #3671E9;
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 150%;
+                margin-bottom: 2%;
+            }
+
+            &__bigText {
+                color: #0D0D2B;
+                font-size: 3.2rem;
+                font-weight: 700;
+                line-height: 150%;
+                margin-bottom: 2%;
+
+                &__dollars {
+                    color: #3671E9;
+                }
+            }
+
+            &__smallText {
+                color: #828282;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 2.8rem;
+            }
+        }
+    }
+
+    &-centerBox {
+        //border: 1px solid red;
+        width: 100%;
+        height: 100vh;
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__bigText {
+            color: #0D0D2B;
+            font-size: 4rem;
+            line-height: 6rem;
+            font-weight: 700;
+            text-align: center;
+            width: 70%;
+        }
+
+        &__cardSection {
+            //border: 1px solid black;
+            width: 100%;
+            height: 43rem;
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+
+            &__card  {
+                height: inherit;
+                width: 33.33%;
+                //order: 1px solid red;
+                border-radius: 1.6rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5% 5%;
+
+                &__image {
+                    width: 6rem;
+                }
+
+                &__bigText {
+                    font-weight: 700;
+                    font-size: 3.2rem;
+                    line-height: 4.8rem;
+                    text-align: center;
+                    color: #0D0D2B;
+                    position: relative;
+                }
+                
+                &__smallText {
+                    color: #BDBDBD;
+                    font-weight: 500;
+                    font-size: 1.8rem;
+                    line-height: 2.7rem;
+                    text-align: center;
+                    margin-top: .8rem;
+                    margin-left: .8rem;
+                    position: absolute;
+                }
+
+                &__text {
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    line-height: 2.8rem;
+                    text-align: center;
+                    color: #828282;
+                }
+
+                &__buttonImage {
+                    width: 5rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

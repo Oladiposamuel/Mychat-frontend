@@ -1,0 +1,52 @@
+.navbar {
+    //border: 1px solid white;
+    background-color: #0D0D2B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0rem;
+    position: sticky;
+    padding: 2rem 10rem 2rem 10rem;
+    z-index: 10;
+
+    &-logo {
+
+    }
+
+    &-link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &__link {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1.6rem;
+            margin-left: 2rem;
+        }
+
+        &__login {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.6rem;
+            margin-left: 4rem;
+        }
+
+        &__divider {
+            margin-left: 2rem;
+        }
+
+        &__button {
+            margin-left: 2rem;
+            background-color: #3671E9;
+            padding: 1.4rem 3.2rem;
+            border-radius: 3.2rem;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1.6rem;
+            cursor: pointer;
+        }
+    }
+}
